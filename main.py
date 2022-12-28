@@ -1,5 +1,5 @@
 import streamlit as st
-import math
+import math as mt
 
 from streamlit_option_menu import option_menu
 
@@ -46,14 +46,14 @@ if (selected == 'Hitung Luas dan Keliling Lingkaran') :
     hitung = st.button ("Hitung luas dan keliling lingkaran")
 
     if hitung :
-        luas = math.pi * jari_jari **2
-        keliling = 2 * math.pi * jari_jari
+        luas = mt.pi * jari_jari **2
+        keliling = 2 * mt.pi * jari_jari
 
-        st.success (f"Luas lingkarang adalah {luas:.2f} cm")
+        st.success (f"Luas lingkarang adalah = {luas:.2f} cm")
 
-        st.success (f"Keliling lingkarang adalah {keliling:.2f} cm")
+        st.success (f"Keliling lingkarang adalah = {keliling:.2f} cm")
 
-        st.write (f"Catatan: Nilai 1 π adalah {math.pi:.2f} untuk mendapatkan hasil π maka, hasil di bagi 3.14.")
+        st.write (f"Catatan: Nilai 1 π adalah {mt.pi:.2f} untuk mendapatkan hasil π maka, hasil di bagi 3.14.")
 
 # halaman hitung luas segitiga
 if (selected == 'Hitung Luas Segitiga') :
