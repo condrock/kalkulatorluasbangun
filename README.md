@@ -1,4 +1,4 @@
-=================================================================================================
+==============================================================
 
 # broad calculator built
 
@@ -10,7 +10,7 @@ After that, the program will calculate the area of the shape and display the cal
 
 See: https://kalkulatorluas.streamlit.app/
 
-=================================================================================================
+==============================================================
 
 # kalkulatorluasbangun
 
@@ -22,4 +22,4 @@ Setelah itu, program akan menghitung luas bangun dan menampilkan hasil perhitung
 
 Lihat: https://kalkulatorluas.streamlit.app/
 
-=================================================================================================
+==============================================================
